@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://fictionhorizon.com/wp-content/uploads/2023/10/Best-New-Gen-Anime.jpg") ;opacity: 0.5;
+    background-size: cover;
+    opacity: 0.8;
+    height: 100%;
+  }
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C70039;
+  }
+
+.list {
+    flex: 1;
+    text-align: center;
+    border-left: solid 2px #8d8d8d;
+  }
+
+.list a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Asul';
+    font-size: 20px;
+  }
+#p {
+
+    background-color: #C70039;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0;
+}
+p {
+    color: white;
+    font-weight: bold;
+    opacity: 1.0;
+    margin: 200px;
+}

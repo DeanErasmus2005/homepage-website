@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #696268;
+    height: 100%;
+  }
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a4e510;
+  }
+
+.list {
+    flex: 1;
+    text-align: center;
+    border-left: solid 2px #8d8d8d;
+  }
+
+.list a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Asul';
+    font-size: 20px;
+  }
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    text-decoration: underline;
+}
+
+.parent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#side-text {
+    color: white;
+    border: solid #027148 3px;
+    background-color: #027148;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 10px;
+    height: 400px;
+    box-sizing: border-box;
+    max-width: 400px;
+
+}
+
+#middle-text {
+    display: inline-block;
+    color: white;
+    background-color: #32CD65;
+    margin-top: 130px;
+    margin-right: 20px;
+    width: 100%;
+    height: 227px;
+    box-sizing: border-box;
+    max-width: 645px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 25px;
+
+
+}
+
+.child1 {
+  flex: 1;
+}
+
+.child2 {
+  flex: 2;
+}
